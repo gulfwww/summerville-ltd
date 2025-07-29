@@ -11,10 +11,7 @@ const nextConfig = {
     unoptimized: true
   },
   output: 'standalone',
-  trailingSlash: true,
-  experimental: {
-    optimizeCss: true
-  }
+  trailingSlash: true
 }
 
 export default nextConfig

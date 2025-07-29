@@ -95,16 +95,16 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 hover:from-blue-700 hover:via-purple-700 hover:to-cyan-600 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
                 onClick={() => scrollToSection("contact")}
+                className="ring-offset-background focus-visible:outline-hidden focus-visible:ring-ring inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-primary/90 h-11 rounded-md bg-gradient-to-r from-blue-600 via-purple-600 to-cyan-500 hover:from-blue-700 hover:via-purple-700 hover:to-cyan-600 text-white px-8 py-4 text-lg font-semibold shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-300"
               >
                 Get Started <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
               <Button
                 size="lg"
                 variant="outline"
-                className="border-2 border-gray-300 hover:border-blue-500 hover:bg-blue-50 px-8 py-4 text-lg font-semibold transition-all duration-300 bg-transparent text-white hover:text-blue-600"
                 onClick={() => scrollToSection("services")}
+                className="ring-offset-background focus-visible:outline-hidden focus-visible:ring-ring inline-flex items-center justify-center gap-2 whitespace-nowrap focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground h-11 rounded-md border-2 border-gray-300 hover:border-blue-500 hover:bg-blue-50 px-8 py-4 text-lg font-semibold transition-all duration-300 bg-transparent text-white"
               >
                 Learn More
               </Button>
@@ -188,139 +188,134 @@ export default function Home() {
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
+            <Card className="rounded-lg text-card-foreground group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
               <CardHeader className="p-8">
                 <div className="relative mb-6">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IT%20Consulting.jpg-JrxGBQb0Brba6gJETmLxgJ2PqhozTq.jpeg"
                     alt="IT Consulting"
                     width={400}
-                    height={200}
+                    height={192}
                     className="w-full h-48 object-cover rounded-xl mb-4"
                   />
                   <div className="absolute -bottom-4 left-4 h-16 w-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Brain className="h-8 w-8 text-white" />
                   </div>
                 </div>
-                <CardTitle className="text-2xl mb-3 group-hover:text-blue-600 transition-colors">
+                <CardTitle className="font-semibold tracking-tight text-2xl mb-3 group-hover:text-blue-600 transition-colors">
                   IT Consulting
                 </CardTitle>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-sm text-gray-600 leading-relaxed">
                   Strategic IT guidance to align technology with your business objectives and maximize ROI.
                 </CardDescription>
               </CardHeader>
             </Card>
-
-            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
+            <Card className="rounded-lg text-card-foreground group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
               <CardHeader className="p-8">
                 <div className="relative mb-6">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Outsourced%20Fintech%20Solutions-cStlpe5kKS0uH4OUgpGc2cHkuS4lYS.webp"
                     alt="Fintech Solutions"
                     width={400}
-                    height={200}
+                    height={192}
                     className="w-full h-48 object-cover rounded-xl mb-4"
                   />
                   <div className="absolute -bottom-4 left-4 h-16 w-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Shield className="h-8 w-8 text-white" />
                   </div>
                 </div>
-                <CardTitle className="text-2xl mb-3 group-hover:text-purple-600 transition-colors">
+                <CardTitle className="font-semibold tracking-tight text-2xl mb-3 group-hover:text-purple-600 transition-colors">
                   Outsourced Fintech Solutions
                 </CardTitle>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-sm text-gray-600 leading-relaxed">
                   Specialized financial technology solutions to streamline your operations and enhance security.
                 </CardDescription>
               </CardHeader>
             </Card>
-
-            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
+            <Card className="rounded-lg text-card-foreground group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
               <CardHeader className="p-8">
                 <div className="relative mb-6">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Data%20Analytics%20%26%20BI-bwcJPXga8cDnGp89Dw1M7YqzrRSruc.png"
                     alt="Data Analytics"
                     width={400}
-                    height={200}
+                    height={192}
                     className="w-full h-48 object-cover rounded-xl mb-4"
                   />
                   <div className="absolute -bottom-4 left-4 h-16 w-16 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center shadow-lg">
                     <BarChart3 className="h-8 w-8 text-white" />
                   </div>
                 </div>
-                <CardTitle className="text-2xl mb-3 group-hover:text-green-600 transition-colors">
+                <CardTitle className="font-semibold tracking-tight text-2xl mb-3 group-hover:text-green-600 transition-colors">
                   Data Analytics & BI
                 </CardTitle>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-sm text-gray-600 leading-relaxed">
                   Transform your data into actionable insights for better decision making and business growth.
                 </CardDescription>
               </CardHeader>
             </Card>
-
-            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
+            <Card className="rounded-lg text-card-foreground group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
               <CardHeader className="p-8">
                 <div className="relative mb-6">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Digital%20Transformation-ndOmUdcfMNGlgj4rZDIbXId75Wr8wu.webp"
                     alt="Digital Transformation"
                     width={400}
-                    height={200}
+                    height={192}
                     className="w-full h-48 object-cover rounded-xl mb-4"
                   />
                   <div className="absolute -bottom-4 left-4 h-16 w-16 bg-gradient-to-br from-orange-500 to-orange-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Zap className="h-8 w-8 text-white" />
                   </div>
                 </div>
-                <CardTitle className="text-2xl mb-3 group-hover:text-orange-600 transition-colors">
+                <CardTitle className="font-semibold tracking-tight text-2xl mb-3 group-hover:text-orange-600 transition-colors">
                   Digital Transformation
                 </CardTitle>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-sm text-gray-600 leading-relaxed">
                   Modernize your business processes with cutting-edge digital solutions and automation.
                 </CardDescription>
               </CardHeader>
             </Card>
-
-            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
+            <Card className="rounded-lg text-card-foreground group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
               <CardHeader className="p-8">
                 <div className="relative mb-6">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IT%20Strategy%20Development-UpwkLyiG7j3nfVw9aLxEO8c5lcAgRs.webp"
                     alt="IT Strategy"
                     width={400}
-                    height={200}
+                    height={192}
                     className="w-full h-48 object-cover rounded-xl mb-4"
                   />
                   <div className="absolute -bottom-4 left-4 h-16 w-16 bg-gradient-to-br from-red-500 to-red-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Database className="h-8 w-8 text-white" />
                   </div>
                 </div>
-                <CardTitle className="text-2xl mb-3 group-hover:text-red-600 transition-colors">
+                <CardTitle className="font-semibold tracking-tight text-2xl mb-3 group-hover:text-red-600 transition-colors">
                   IT Strategy Development
                 </CardTitle>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-sm text-gray-600 leading-relaxed">
                   Comprehensive IT roadmaps aligned with your business growth plans and objectives.
                 </CardDescription>
               </CardHeader>
             </Card>
-
-            <Card className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
+            <Card className="rounded-lg text-card-foreground group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg hover:-translate-y-2 bg-white/80 backdrop-blur-sm">
               <CardHeader className="p-8">
                 <div className="relative mb-6">
                   <Image
                     src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Custom%20Development-VppXTLiJ9xQBhpCcZ6jXYLAsAOHOAg.png"
                     alt="Custom Development"
                     width={400}
-                    height={200}
+                    height={192}
                     className="w-full h-48 object-cover rounded-xl mb-4"
                   />
                   <div className="absolute -bottom-4 left-4 h-16 w-16 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg">
                     <Code className="h-8 w-8 text-white" />
                   </div>
                 </div>
-                <CardTitle className="text-2xl mb-3 group-hover:text-indigo-600 transition-colors">
+                <CardTitle className="font-semibold tracking-tight text-2xl mb-3 group-hover:text-indigo-600 transition-colors">
                   Custom Development
                 </CardTitle>
-                <CardDescription className="text-gray-600 leading-relaxed">
+                <CardDescription className="text-sm text-gray-600 leading-relaxed">
                   Tailored technology solutions designed and implemented for your specific business needs.
                 </CardDescription>
               </CardHeader>
@@ -399,9 +394,8 @@ export default function Home() {
               <h3 className="text-4xl md:text-5xl font-bold mb-6">Ready to Transform Your Business?</h3>
               <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 to-blue-400 mx-auto mb-8"></div>
               <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-                {
-                  "Let's discuss how Summerville Group can help you harness the power of technology to drive innovation and achieve your goals."
-                }
+                Let's discuss how Summerville Group can help you harness the power of technology to drive innovation and
+                achieve your goals.
               </p>
             </div>
             <div className="grid lg:grid-cols-2 gap-12">
@@ -477,11 +471,11 @@ export default function Home() {
                 <Code className="h-6 w-6 text-white" />
               </div>
               <div>
-                <span className="text-2xl font-bold text-white">Summerville Group Ltd</span>
+                <span className="text-2xl font-bold text-white">Summerville Group</span>
               </div>
             </div>
             <p className="text-gray-300 text-lg mb-4">Empowering businesses with comprehensive IT solutions</p>
-            <p className="text-gray-400 text-sm">© 2025 Summerville Group Ltd. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© 2025 Summerville Group. All rights reserved.</p>
           </div>
         </div>
       </footer>
