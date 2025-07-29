@@ -477,11 +477,11 @@ export default function Home() {
                 <Code className="h-6 w-6 text-white" />
               </div>
               <div>
-                <span className="text-2xl font-bold text-white">Summerville Group</span>
+                <span className="text-2xl font-bold text-white">Summerville Group Ltd</span>
               </div>
             </div>
             <p className="text-gray-300 text-lg mb-4">Empowering businesses with comprehensive IT solutions</p>
-            <p className="text-gray-400 text-sm">© 2025 Summerville Group. All rights reserved.</p>
+            <p className="text-gray-400 text-sm">© 2025 Summerville Group Ltd. All rights reserved.</p>
           </div>
         </div>
       </footer>
