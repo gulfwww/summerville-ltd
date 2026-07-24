@@ -111,3 +111,8 @@ html {
   transform: translateY(-6px);
   box-shadow: 0 24px 48px -18px hsl(var(--navy) / 0.35);
 }
+
+/* Custom gradient backgrounds */
+.gradient-bg {
+  background: linear-gradient(135deg, #0070ba 0%, #1a7bc4 100%);
+}
