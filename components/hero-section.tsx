@@ -39,17 +39,15 @@ export function HeroSection() {
           </span>
 
           <h1 className="mt-6 text-balance font-serif text-4xl font-semibold leading-[1.08] text-white sm:text-5xl lg:text-6xl">
-            Driving Growth in Energy and Financial Technology
+            Driving growth in Energy and Fintech across Mauritius and the UAE
           </h1>
 
           <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-white/75">
-            From power purchase agreements and energy project facilitation to core banking assessments, system
-            integration, implementation and post go-live support, we deliver end-to-end advisory and execution
-            services.
+            From power purchase agreements and energy project facilitation to core banking assessments, system integration, and post go-live support. We deliver end-to-end advisory and implementation.
           </p>
 
           <p className="mt-4 max-w-2xl text-pretty leading-relaxed text-white/60">
-            We connect partners, close transactions and build the systems that power business.
+            We connect partners, close transactions, and build the systems that power business.
           </p>
 
           <div className="mt-9 flex flex-col gap-4 sm:flex-row">
