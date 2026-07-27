@@ -19,7 +19,6 @@ export function Logo({ className, showText = true, variant = "dark" }: LogoProps
       {showText && (
         <div className="flex flex-col items-start gap-y-0.5 leading-none">
           <span className={cn("font-serif text-lg font-semibold tracking-wide", textColor)}>SUMMERVILLE</span>
-          <span className={cn("text-[0.65rem] font-medium uppercase tracking-[0.28em]", subColor)}>IT Solutions & Innovation</span>
         </div>
       )}
     </div>

@@ -1,30 +1,271 @@
-# Code Review Needed
+<div align="center">
+  <br />
+  <a href="https://www.summervillegroup.com" target="_blank">
+    <img src="https://www.summervillegroup.com/logo.png" alt="Summerville Group Logo" width="180" />
+  </a>
+  <br />
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+  <div>
+    <img src="https://img.shields.io/badge/Next.js_15-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React_19-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/Shadcn_UI-000000?style=for-the-badge&logo=shadcnui&logoColor=white" alt="shadcn/ui" />
+  </div>
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/summervilles-projects/v0-code-review-needed)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/PqNUr3Kif2P)
+  <h1 align="center">Summerville Group</h1>
 
-## Overview
+  <p align="center">
+    Building Better Communities Through Innovation & Excellence
+  </p>
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+  <p align="center">
+    Corporate website developed with Next.js 15, React 19, TypeScript, and Tailwind CSS, delivering a modern, responsive, and SEO-optimized digital experience.
+  </p>
+</div>
 
-## Deployment
+---
 
-Your project is live at:
+# Tech Stack
 
-**[https://vercel.com/summervilles-projects/v0-code-review-needed](https://vercel.com/summervilles-projects/v0-code-review-needed)**
+- Next.js 15 (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS
+- shadcn/ui
+- Framer Motion
+- Lucide React
+- Responsive Design
+- SEO Optimized
 
-## Build your app
+---
 
-Continue building your app on:
+# Features
 
-**[https://v0.dev/chat/projects/PqNUr3Kif2P](https://v0.dev/chat/projects/PqNUr3Kif2P)**
+- Modern corporate website
+- Fully responsive layout
+- Mobile-first design
+- Animated UI
+- Sticky navigation
+- Reusable components
+- Optimized performance
+- SEO friendly
+- Accessible interface
+- Clean architecture
 
-## How It Works
+---
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+# Website Sections
+
+## Navigation
+
+- Home
+- About
+- Services
+- Projects
+- Industries
+- Contact
+
+---
+
+## Hero
+
+- Company introduction
+- Corporate branding
+- Call-to-action buttons
+- Background imagery
+- Smooth scroll navigation
+
+---
+
+## About
+
+Showcases the company's background, vision, mission, and commitment to delivering high-quality solutions while building lasting relationships with clients.
+
+---
+
+## Services
+
+Highlight the company's core services including:
+
+- Project Management
+- Construction
+- Engineering
+- Consultancy
+- Property Development
+- Infrastructure Solutions
+
+---
+
+## Projects
+
+A portfolio section displaying completed and ongoing projects with images and descriptions.
+
+---
+
+## Industries
+
+Industries served include:
+
+- Commercial
+- Residential
+- Infrastructure
+- Industrial
+- Government
+- Private Sector
+
+---
+
+## Why Choose Us
+
+Highlights:
+
+- Experienced Team
+- Innovative Solutions
+- Quality Assurance
+- Sustainable Practices
+- Customer Satisfaction
+- Timely Delivery
+
+---
+
+## Contact
+
+Includes:
+
+- Contact Form
+- Office Location
+- Phone Number
+- Email Address
+- Google Maps Integration
+- Social Media Links
+
+---
+
+# Folder Structure
+
+```text
+summerville-group/
+│
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── components/
+│   ├── Navbar.tsx
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Services.tsx
+│   ├── Projects.tsx
+│   ├── Industries.tsx
+│   ├── Contact.tsx
+│   └── Footer.tsx
+│
+├── public/
+│   ├── logo.svg
+│   └── images/
+│
+├── lib/
+├── hooks/
+├── styles/
+│
+├── package.json
+├── tsconfig.json
+├── tailwind.config.ts
+├── next.config.ts
+└── README.md
+```
+
+---
+
+# Getting Started
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Run Development Server
+
+```bash
+npm run dev
+```
+
+Open:
+
+```
+http://localhost:3000
+```
+
+---
+
+# Production
+
+Build the application:
+
+```bash
+npm run build
+```
+
+Start production server:
+
+```bash
+npm run start
+```
+
+---
+
+# Design Goals
+
+- Modern corporate branding
+- Professional user experience
+- Fast loading
+- Responsive across all devices
+- SEO optimized
+- Accessible interface
+- Scalable architecture
+- Reusable components
+
+---
+
+# Future Improvements
+
+- CMS Integration
+- Blog Module
+- Multi-language Support
+- Dark Mode
+- Career Portal
+- Testimonials
+- Analytics Dashboard
+- Advanced Contact Forms
+
+---
+
+# Performance
+
+- Lighthouse Optimized
+- Image Optimization
+- Code Splitting
+- Server Components
+- Metadata Optimization
+- Responsive Images
+
+---
+
+# Deployment
+
+The application can be deployed on:
+
+- Vercel
+- Netlify
+- AWS
+- DigitalOcean
+- Self-hosted Node.js Server
+
+---
+
+# License
+
+© 2026 Summerville Group. All Rights Reserved.
