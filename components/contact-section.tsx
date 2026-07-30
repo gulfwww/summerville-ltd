@@ -12,12 +12,12 @@ const contactDetails = [
   {
     icon: Phone,
     label: "Phone & Fax",
-    lines: ["+971 4 3464500", "Fax: +971 4 3464200"],
+    lines: ["Phone: +230 466 7070", "Fax: +230 465 0077"],
   },
   {
     icon: MapPin,
     label: "Offices",
-    lines: ["Mauritius", "P.O. Box 9546, Dubai, U.A.E."],
+    lines: ["Mauritius", "Level 4, SBI Tower, Cybercity, Ebene, Republic of Mauritius"],
   },
 ]
 
