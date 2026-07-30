@@ -12,7 +12,7 @@ const contactDetails = [
   {
     icon: Phone,
     label: "Phone & Fax",
-    lines: ["Phone: +230 466 7070", "Fax: +230 465 0077"],
+    lines: ["Phone: +230 466 7070","Fax: +230 465 0077"],
   },
   {
     icon: MapPin,
